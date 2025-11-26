@@ -152,7 +152,3 @@ While the STRIDE write-up lives in the accompanying course report, the codebase 
 - Feature-based backdoors can remain stealthy while introducing targeted behavior.
 - Adversarial training (even a single attack family) dramatically improves robustness without sacrificing much clean performance.
 - Security workflow should combine adversarial testing, SAST, and artifact hygiene to guard against both model-level and supply-chain threats.
-
----
-
-Happy hacking, and practice responsible disclosure when applying these techniques beyond the classroom! ✨
