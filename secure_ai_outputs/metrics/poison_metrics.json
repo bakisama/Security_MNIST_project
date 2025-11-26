@@ -1,0 +1,14 @@
+{
+  "scenario": "poison_corner_patch",
+  "mode": "feature",
+  "target_class": 7,
+  "num_poisoned": 100,
+  "patch_size": 4,
+  "patch_value": 1.0,
+  "epochs": 5,
+  "batch_size": 128,
+  "clean_test_loss": 0.03733968734741211,
+  "clean_test_accuracy": 0.9876000285148621,
+  "target_class_clean_accuracy": 0.9863813229571985,
+  "target_class_patched_accuracy": 0.9824902723735408
+}

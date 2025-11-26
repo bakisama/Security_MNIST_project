@@ -1,0 +1,12 @@
+{
+  "scenario": "advtrained_fgsm",
+  "attack": "FGSM",
+  "eps": 0.25,
+  "advtrain_epochs": 5,
+  "advtrain_batch_size": 128,
+  "advtrain_time_seconds": 91.01268005371094,
+  "advtrained_clean_loss": 0.029384460300207138,
+  "advtrained_clean_accuracy": 0.9900000095367432,
+  "advtrained_adversarial_loss": 0.21916276216506958,
+  "advtrained_adversarial_accuracy": 0.921999990940094
+}

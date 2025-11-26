@@ -1,0 +1,47 @@
+{
+  "baseline_metrics": {
+    "scenario": "baseline_clean",
+    "loss": 0.03597046434879303,
+    "accuracy": 0.989799976348877,
+    "train_time_seconds": null,
+    "inference_time_per_image_seconds": 2.9278111457824706e-05,
+    "epochs": 5,
+    "batch_size": 128
+  },
+  "fgsm_metrics": {
+    "scenario": "baseline_fgsm",
+    "attack": "FGSM",
+    "eps": 0.25,
+    "generation_time_seconds": 2.447065830230713,
+    "baseline_clean_loss": 0.03597046434879303,
+    "baseline_clean_accuracy": 0.989799976348877,
+    "baseline_adversarial_loss": 3.8410093784332275,
+    "baseline_adversarial_accuracy": 0.18070000410079956
+  },
+  "advtrain_metrics": {
+    "scenario": "advtrained_fgsm",
+    "attack": "FGSM",
+    "eps": 0.25,
+    "advtrain_epochs": 5,
+    "advtrain_batch_size": 128,
+    "advtrain_time_seconds": 91.01268005371094,
+    "advtrained_clean_loss": 0.029384460300207138,
+    "advtrained_clean_accuracy": 0.9900000095367432,
+    "advtrained_adversarial_loss": 0.21916276216506958,
+    "advtrained_adversarial_accuracy": 0.921999990940094
+  },
+  "poison_metrics": {
+    "scenario": "poison_corner_patch",
+    "mode": "feature",
+    "target_class": 7,
+    "num_poisoned": 100,
+    "patch_size": 4,
+    "patch_value": 1.0,
+    "epochs": 5,
+    "batch_size": 128,
+    "clean_test_loss": 0.03733968734741211,
+    "clean_test_accuracy": 0.9876000285148621,
+    "target_class_clean_accuracy": 0.9863813229571985,
+    "target_class_patched_accuracy": 0.9824902723735408
+  }
+}
